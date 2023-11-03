@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-                dialog.setNegativeButton("顯示list", new DialogInterface.OnClickListener() {
+                dialog.setPositiveButton("顯示list", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         showListDialog();
